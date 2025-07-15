@@ -1,0 +1,41 @@
+.video-call-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+.video-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.video-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+video {
+  width: 240px;
+  height: 180px;
+  background: #222;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.screen-share-btn {
+  padding: 0.5rem 1rem;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.screen-share-btn:disabled {
+  background: #ffd699;
+  color: #888;
+  cursor: not-allowed;
+} 

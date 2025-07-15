@@ -1,0 +1,20 @@
+.whiteboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whiteboard-container h2 {
+  margin-bottom: 1rem;
+}
+.whiteboard-container canvas {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+} 
